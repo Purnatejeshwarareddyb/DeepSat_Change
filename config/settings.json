@@ -1,0 +1,16 @@
+{
+  "image_size": 256,
+  "batch_size": 4,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "change_threshold": 0.5,
+  "min_region_size": 100,
+  "model_path": "models/best_model.keras",
+  "dataset_path": "dataset",
+  "output_path": "results",
+  "animation_speed": 250,
+  "max_train_samples": 2000,
+  "max_val_samples": 400,
+  "max_test_samples": 400,
+  "early_stopping_patience": 8
+}

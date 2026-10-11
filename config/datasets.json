@@ -1,0 +1,24 @@
+{
+  "available_datasets": [
+    {
+      "name": "LEVIR-CD (256px cropped)",
+      "description": "Satellite building-change detection dataset, pre-cropped to 256x256 tiles with official train/validation/test splits and binary change masks. Automatically downloaded, split, and organized into the required folder structure with no manual steps.",
+      "homepage_url": "https://huggingface.co/datasets/ericyu/LEVIRCD_Cropped256",
+      "huggingface_dataset_id": "ericyu/LEVIRCD_Cropped256",
+      "download_url": "",
+      "approx_size": "A subset of ~2,800 image pairs by default (2000 train / 400 validation / 400 test), roughly 300-800 MB depending on network conditions",
+      "license": "See dataset page for license and citation terms (derived from LEVIR-CD, Chen & Shi, 2020)",
+      "type": "Paired Satellite Images + Building Change Masks"
+    },
+    {
+      "name": "LEVIR-CD+ (full resolution, larger download)",
+      "description": "Higher-resolution (1024x1024) version of LEVIR-CD with only train/test splits. Larger and slower to download; use only if you want higher-resolution training data and have a fast connection.",
+      "homepage_url": "https://huggingface.co/datasets/blanchon/LEVIR_CDPlus",
+      "huggingface_dataset_id": "blanchon/LEVIR_CDPlus",
+      "download_url": "",
+      "approx_size": "~3.8 GB downloaded, auto-resized to 512px tiles on save",
+      "license": "See dataset page for license and citation terms (Chen & Shi, 2020)",
+      "type": "Paired Satellite Images + Building Change Masks"
+    }
+  ]
+}
